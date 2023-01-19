@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong");
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    list-style-type: none;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    font-size: 2em;
+    color: rgb(136, 20, 97);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* *******************************navbar************************************* */
+nav{
+    overflow: hidden;
+    background-color: rgb(57, 19, 129);
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li{
+    float: right;
+    font-size: 1.2em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 5px 16px 10px;
+    color: rgb(253, 251, 251);
+    margin: 5px;
+    
+}
+#logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    height: 10px;
+    margin: 4px;
+}
+
+header #icons{
+    width: 50%;
+    text-align: right;
+    inline-size: auto;
+
+}
+header #icons a{
+    
+    display: inline-block;
+    margin: 2px;
+    font-size: 1.5em;
+    inline-size: 40px;
+    box-shadow: 2px 5px 5px cornflowerblue;
+    
+}
+
+
+#icons i{
+    background: coral;
+}
+    
+  
+
+#icons a :hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+
+   
+}
+
+/* 333333333333333333333333333image principale333333333333333333333333 */
+#imageprincipale {
+    padding-top: 60px;
+    background: url(ya\ bien.jpg)no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 700px;
+
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(136, 5, 38);
+    font-size: 6em;
+    margin-top: 40px;
+   
+    
+}
+
+#premiertrait{
+    height: 59px;
+    width: 100%;
+    margin: -3px auto;
+    
+}
+h3{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+color: rgb(235, 11, 78);
+font-size: 3em;
+text-shadow: 1px;
+}
+/* ##############################fotooo############### */
+#fotoo{
+    background-color: white;
+    text-align: center;
+   color: rgb(21, 21, 22);
+  padding: 1px;
+  margin: 50px;
+  
+
+}
+
+
+
+
+
+/* ############### presentation ################# */
+#presentation{
+    background-color: antiquewhite;
+    padding: 10px 0px 100px 0;
+}
+#textintro{
+padding: 50px 20%;
+}
+
+
+
+#prestattion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+
+}
+
+
+
+.imageprestation h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imageprestation img{
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px 4px rgba(rgb(26, 24, 24), rgb(29, 51, 29), rgb(38, 38, 102), alpha);
+
+}
+.imageprestation img:hover {
+    opacity: 0.6;
+    transform: scale(1.09);
+    transition: 0.8s ease-in-out;
+
+}
+/* ################################ et ########################## */
+#tourisme {
+    height: 1500px;
+    background-color: beige ;
+    padding: 1px 2%;
+    
+}
+#tourisme h2{
+    padding-top: 60px;
+}
+#Imprimante {
+    background: url(imprimante.jpg);
+    height: 2px 10px 5%;
+}
+#Unlockicloud {
+    background: url(iCloud-bypass-compared-0.jpg);
+    
+}
+#Installationlogiciel{
+    background: url(installation-logiciels.jpg);
+    
+}
+#Clesautomobile{
+    background: url(auto.png)5% ;
+    
+    float: left;
+}
+#Agentsportif{
+    background: url(agent.jpg) ;  
+}
+
+#tourisme li{
+    margin: 50px 200px 0 100px;
+    height: 200px  ;
+    width: 50%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgb(26, 24, 24);
+    
+    
+}
+#tourisme p{
+    height: 45px;
+    width: 230px;
+    background-color: aqua;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px rgba(rgb(24, 21, 21), rgb(29, 39, 29), rgb(19, 19, 43), alpha);
+}
+#tourisme #Imprimante{
+    float: center;
+}
+#tourisme #Unlockicloud{
+    float: right;
+}
+#tourisme #Clesautomobile{
+    float: right;
+}
+#ahmedjobs p{
+    float: left;
+    background-color: aquamarine;
+    margin-left: -180px;
+    
+}
+#tourisme #Agentsportif{
+    float: left;
+}
+#Agentsportif p{
+   
+    float: left;
+    margin-left: -100px;
+}
+/* ############################footer################# */
+footer{
+    background-color: rgb(124, 76, 41);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    
+   
+
+}
+h5{
+ color: rgb(20, 20, 20);
+ text-size-adjust: 20px;
+}
+form{
+    height: 350px;
+    margin: 5px;
+    
+}
+
+input{
+    height: 10px;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 8px;
+}
+
+textarea{
+    height: 20px;
+    color: darkblue;
+    height: 50px;
+    border: none;
+    width: 300px;
+    padding: 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 8px;
+}
+button{
+    font-size: 1em;
+    background-color: bisque;
+    width: 100px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    margin: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 8px;
+   
+    
+}
+button:hover{
+    background-color: brown;
+    color: rgb(18, 9, 104);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemetrait{
+    height: 1px;
+    width: 80%;
+    background-color: blanchedalmond;
+    margin: 10px auto;
+}
+#copyrighteticons{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright{
+    width: 50%;
+    text-align: left;
+    color: bisque;
+}
+h4{
+    color: black;
+}
+#icons{
+    width: 150%;
+    text-align: right;
+}
+#icons a{
+    display: inline-block;
+    margin: 5px;
+    font-size: 1.3em;
+    background-blend-mode: saturation;
+    
+}
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
